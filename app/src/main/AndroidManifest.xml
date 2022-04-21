@@ -27,6 +27,8 @@
             android:exported="true"
             android:foregroundServiceType="location" />
 
+        <receiver android:name=".GeofenceBroadcastReceiver" />
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
